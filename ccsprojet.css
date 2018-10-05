@@ -111,3 +111,25 @@ li a:hover {
 	line-height:345px;
 	background :#ddd;
 }
+
+.container-produit{
+	margin-left:200px;
+}
+
+
+.text-panier-produit{
+	float:right;
+	margin-right:700px;
+}
+
+.container-produit button{
+  float:right;
+}
+
+.Bacheter{
+	margin-left:750px;
+}
+
+.barrerecherche{
+	text-align:center;
+}
