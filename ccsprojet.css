@@ -3,8 +3,6 @@ body {
 	background-color:pink;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,10 +25,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font-size: 17px;
-	
+	font-size: 17px;	
 }
-
 
 li a:hover {
     background-color: #111;
@@ -63,7 +59,6 @@ li a:hover {
 	text-align:center;
 	padding-left :10px;
 	padding-right :10px;
-
 }
 
 .LesMerdes{
@@ -78,7 +73,6 @@ li a:hover {
 	margin-right: 8em;
 	margin-left: 8em;
 }
-
 
 .ImageProduit{
 	 margin: 100px 50px 75px 100px;
@@ -116,7 +110,6 @@ li a:hover {
 .container-produit{
 	margin-left:200px;
 }
-
 
 .text-panier-produit{
 	float:right;
