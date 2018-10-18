@@ -7,31 +7,15 @@
 </head>
 
 
-<body>
-	<ul>
-		<li><a href="ProjetWebPageAccueil.html">Accueil</a></li>
-		<li><a href="ProjetWebPagePanier.html">Panier</a></li>
-		<li><a href="ProjetWebRecherche.html">Recherche</a></li>
-		<div class="login-container">
-			<form action="/action_page.php">
-				<input type="text" placeholder="Username" name="username">
-				<input type="text" placeholder="Password" name="psw">
-				<button type="submit">Login</button>
-			</form>
-		</div>
-		<div class="login-container">
-			<form action="/action_page.php">
-				<button type="submit"><a href="inscription.html">NewAccount</a></button>
-			</form>
-		</div>
-	</ul>
+<body>  
+	<?php include("header.html") ?>
 	<br>
 	<br>
 	<div class="textProduitEntete">
-		<h1>le super telehpone du futur de ouf</h1>
+		<h1>le super telephone du futur de ouf</h1>
 	</div>
 	<div class="ImageProduit">
-	<img src =image/Smart.jpg alt="Un nul" > 
+	<img src =image/download.png alt="Un nul" > 
 		<div class="achat">
 			<button type="bachat">ACHAT</button>
 		</div>

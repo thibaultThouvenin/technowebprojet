@@ -8,6 +8,8 @@
 
 
 <body>
+	<?php include("header.html") ?>
+	<br><br>
 	<h1>Créer un nouveau compte</h1>
 	<div style="width:400px;height:692px ;border-radius: 10px;margin:auto;background-color: lavender ;">
 		<form method="post">

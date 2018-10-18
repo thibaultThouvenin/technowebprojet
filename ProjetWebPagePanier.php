@@ -8,30 +8,14 @@
 
 
 <body>
-	<ul>
-		<li><a href="ProjetWebPageAccueil.html">Accueil</a></li>
-		<li><a href="ProjetWebPagePanier.html">Panier</a></li>
-		<li><a href="ProjetWebRecherche.html">Recherche</a></li>
-		<div class="login-container">
-			<form action="/action_page.php">
-				<input type="text" placeholder="Username" name="username">
-				<input type="text" placeholder="Password" name="psw">
-				<button type="submit">Login</button>
-			</form>
-		</div>
-		<div class="login-container">
-			<form action="/action_page.php">
-				<button type="submit"><a href="inscription.html">NewAccount</a></button>
-			</form>
-		</div>
-	</ul>
+	<?php include("header.html") ?>
 	<br>
 	<h1 align="center">Votre panier </h1>
 	<br>
 	<br>
 	<div class="container-produit">
 		<div class="image-panier-produit">
-			<a href="ProjetWebFicheProduitHua.html"> <img src =image/Hua.jpg alt="Une merdeaussi" height="150" width="150" > </a>
+			<a href="ProjetWebFicheProduitHua.html"> <img src =image/Hua.png alt="Une merdeaussi" height="150" width="150" > </a>
 			<div class="text-panier-produit">
 				<br>
 				<br>
@@ -44,7 +28,7 @@
 	<br>
 	<div class="container-produit">
 		<div class="image-panier-produit">
-			<a href="ProjetWebFicheProduitHua.html"> <img src =image/Hua.jpg alt="Une merdeaussi" height="150" width="150" > </a>
+			<a href="ProjetWebFicheProduitHua.html"> <img src =image/Hua.png alt="Une merdeaussi" height="150" width="150" > </a>
 			<div class="text-panier-produit">
 				<br>
 				<br>
@@ -57,7 +41,7 @@
 	<br>
 	<div class="container-produit">
 		<div class="image-panier-produit">
-			<a href="ProjetWebFicheProduitHua.html"><img src =image/Hua.jpg alt="Une merdeaussi"  height="150" width="150" > </a>
+			<a href="ProjetWebFicheProduitHua.html"><img src =image/Hua.png alt="Une merdeaussi"  height="150" width="150" > </a>
 			<div class="text-panier-produit">
 				<br>
 				<br>
