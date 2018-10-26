@@ -25,6 +25,8 @@ if (file_exists("action/'.$page'.php"))
 	<?php include("view/header.php"); ?>
 	<?php if (file_exists("view/'.$page'.php"))
 			include(".$page.php");
+		  else
+			include("view/accueil.php"); 
 	?>
 </body>
 </html>
