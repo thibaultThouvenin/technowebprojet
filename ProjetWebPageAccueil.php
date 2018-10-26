@@ -10,49 +10,37 @@
 <body>
 	<?php include("header.html") ?>
 	<br>
-	<h1 align="center"> Les produits stars </h1>
+	<h1 align="center"> Les Téléphones dernières générations </h1>
 	<br>
-	<div class="LesStars">
-		<a href="ProjetWebFicheProduitimages.html"><img src =image/images.png alt="Le Futur" > </a>
-		<a href="ProjetWebFicheProduitdownload.html"><img src =image/download.png alt="Le Futurbis" > </a>
+	<div class="dernieresgenerations">
+		<a href="ProjetWebFicheProduitimages.html"><img src =image/images.png alt="" > </a>
+		<a href="ProjetWebFicheProduitdownload.html"><img src =image/download.png alt="" > </a>
 		<br>
-		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span>cher</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span>beaucoup trop cher</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> Honor 6C: 499€</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span>Iphone 6S: 599€</span>
 	</div>
-	<p align="center">achetez ça petit pigeons !!! </p>
+	<p align="center"> </p>
 	<br>
 	<br>
 	<br>
 	<br>
-	<h1 align="center"> les téléphones nuls à chier </h1>
+	<h1 align="center"> Les téléphones à bas prix </h1>
 	<br>
-	<div class="LesMerdes">
-		<a href="ProjetWebFicheProduitArc.html"> <img src =image/Arc.png alt="Une merde" > </a>
-		<a href="ProjetWebFicheProduitArc2.html"><img src =image/Arc2.png alt="Une merdee" ></a>
-		<a href="ProjetWebFicheProduitHua.html"><img src =image/Hua.png alt="Une merdeaussi" ></a>
+	<div class="basprix">
+		<a href="ProjetWebFicheProduitArc.html"> <img src =image/Arc.png alt="" > </a>
+		<a href="ProjetWebFicheProduitArc2.html"><img src =image/Arc2.png alt="" ></a>
+		<a href="ProjetWebFicheProduitHua.html"><img src =image/Hua.png alt="" ></a>
 		<br>
 	</div>
-	<div class="LetextdMerde">
+	<div class="textebasprix">
 		<p>
-			<span class="textenul">un petit prix</span>
-			<span class="textenul">un petit prix</span>
-			<span class="textenul">ACHETE</span>
+			<span class="textenul">Lumia 500 :119€</span>
+			<span class="textenul">Archos access 50 :59€</span>
+			<span class="textenul">Huawei P20 Lite :129€</span>
 		</p>
 	</div>
 	<br>
 	<br>
-	<div class="LesMerdes">
-		<a href="ProjetWebFicheProduitSmart.html"><img src =image/Smart.pngg alt="Une merde" > </a>
-		<a href="ProjetWebFicheProduitSmart2.html"><img src =image/Smart2.png alt="Une merdaussi" > </a>
-		<a href="ProjetWebFicheProduitSmart3.html"><img src =image/Smart3.png alt="non lui est bien" > </a>
-		<br>
-	</div>
-	<div class="LetextdMerde">
-		<p>
-			<span class="textenul">un prix moyen</span>
-			<span class="textenul">un prix moyen</span>
-			<span class="textenul">ACHETE PAS</span>
-		</p>
-	</div>
+	
 </body>
 
 </html>
