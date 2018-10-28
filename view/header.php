@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head> 
-	 <link rel="stylesheet" media="screen" type="text/css" title="ProjetWeb" href="../ccsprojet.css"/>
-</head>
-
 <body>
 	<ul>
-		<li><a href="index.php?page=accueil">Accueil</a></li>
+		<li><a href="index.php?page=main">Accueil</a></li>
 		<li><a href="index.php?page=cartDisplay">Panier</a></li>
 		<li><a href="index.php?page=search">Recherche</a></li>
 		<div class="login-container">
@@ -19,7 +15,7 @@
 		</div>
 		<div class="login-container">
 			<form>
-				<button type="submit"><a href="inscription.php">S'inscrire</a></button>
+				<button type="submit"><a href="index.php?page=register">S'inscrire</a></button>
 			</form>
 		</div>
 	</ul>
