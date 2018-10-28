@@ -1,0 +1,129 @@
+body {
+	
+	background-color:pink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 17px;	
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.login-container {
+  float: right;
+}
+
+.login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container input[type=text]{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.dernieresgenerations {
+	text-align:center;
+	padding-left :10px;
+	padding-right :10px;
+}
+
+.basprix{
+	text-align:center
+}
+
+.textebasprix{
+	text-align:center
+}
+
+.textenul{
+	margin-right: 8em;
+	margin-left: 8em;
+}
+
+.ImageProduit{
+	 margin: 100px 50px 75px 100px;
+	 width:1500px;
+	 height:500px;
+}
+
+.textProduitEntete{
+	margin-left : 40px;
+	text-align:left
+}
+
+.ImageDescriptif{
+	overflow:auto;
+	float:right;
+	width : 650px;
+	height:350px;
+	}
+	
+.achat{
+	margin-left:100px;
+	overflow:auto;
+	float:right;
+	width : 400px;
+	height:350px;
+}
+
+.achat button{
+	width:100px;
+	height:100px;
+	line-height:100px;
+	background :#ddd;
+}
+
+.container-produit{
+	margin-left:200px;
+}
+
+.text-panier-produit{
+	float:right;
+	margin-right:700px;
+}
+
+.container-produit button{
+  float:right;
+}
+
+.Bacheter{
+	margin-left:750px;
+}
+
+.barrerecherche{
+	text-align:center;
+}
