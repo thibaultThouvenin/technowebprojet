@@ -1,4 +1,4 @@
-<br><br><br>
+<br><br>
 <?php
 
 //Starting session
@@ -12,11 +12,8 @@ include("action/checkUser.php");
 
 $page = $_GET['page'];
 
-//execute one script in a php action file
-if (file_exists("action/'.$page'.php"))
-	include(".$page.php");
 ?>
- 
+
 <html>
 <head>
 	<link rel="stylesheet" media="screen" type="text/css" title="ProjetWeb" href="ccsprojet.css"/>
