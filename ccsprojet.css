@@ -1,9 +1,14 @@
-body {
-	
-	background-color:pink;
-}
 
-ul {
+/*BACKGROUND COLOR*/
+body {	
+	background-color:whitesmoke;
+}
+/*END BACKGROUND COLOR*/
+
+
+/*HEADER*/
+/*HEADER - LEFT ZONE*/
+.header {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,12 +19,10 @@ ul {
     left:0;
     width: 100%;
 }
-
-li {
+.link {
     float: left;
 }
-
-li a {
+.textlink {
     display: block;
     color: white;
     text-align: center;
@@ -27,15 +30,11 @@ li a {
     text-decoration: none;
 	font-size: 17px;	
 }
-
-li a:hover {
-    background-color: #111;
-}
-
+/*END LEFT ZONE*/
+/*HEADER - LOGIN ZONE*/
 .login-container {
   float: right;
 }
-
 .login-container button {
   float: right;
   padding: 6px;
@@ -46,7 +45,6 @@ li a:hover {
   border: none;
   cursor: pointer;
 }
-
 .login-container input[type=text]{
   padding: 6px;
   margin-top: 8px;
@@ -54,76 +52,37 @@ li a:hover {
   border: none;
   width:120px;
 }
+/*END LOGIN ZONE*/
+/*END HEADER*/
 
-.dernieresgenerations {
-	text-align:center;
-	padding-left :10px;
-	padding-right :10px;
-}
 
-.basprix{
-	text-align:center
-}
-
-.textebasprix{
-	text-align:center
-}
-
-.textenul{
-	margin-right: 8em;
-	margin-left: 8em;
-}
-
-.ImageProduit{
-	 margin: 100px 50px 75px 100px;
-	 width:1500px;
-	 height:500px;
-}
-
+/*DIVISION FOR 1 PRODUCT*/
 .textProduitEntete{
-	margin-left : 40px;
-	text-align:left
-}
-
-.ImageDescriptif{
-	overflow:auto;
-	float:right;
-	width : 650px;
-	height:350px;
-	}
-	
-.achat{
-	margin-left:100px;
-	overflow:auto;
-	float:right;
-	width : 400px;
-	height:350px;
-}
-
-.achat button{
-	width:100px;
-	height:100px;
-	line-height:100px;
-	background :#ddd;
-}
-
-.container-produit{
-	margin-left:200px;
-}
-
-.text-panier-produit{
-	float:right;
-	margin-right:700px;
-}
-
-.container-produit button{
-  float:right;
-}
-
-.Bacheter{
-	margin-left:750px;
-}
-
-.barrerecherche{
 	text-align:center;
 }
+#col{
+    display:block; 
+    position:static;
+    width:1900px;
+}
+.affichageproduit{
+    display: block;
+    width: 100%;
+}
+.affichageproduit li{
+	text-align: center;
+    display: inline-block;
+    width: 23% ;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.ajouteraupanier{
+	text-align: center;
+	margin-left:150px;
+}
+.prix{
+	margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 3em;
+}
+/*END DIVISION FOR 1 PRODUCT*/
