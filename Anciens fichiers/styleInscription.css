@@ -1,0 +1,25 @@
+input {margin-left:14px}
+label{margin-left:10px;}
+section { 
+	background-position: center-left;
+	height: 500px;
+    width:500px;
+    margin: 0px;
+    border-style: groove;
+    background-color: white;
+    text-align: center-left;
+    position: absolute;
+    top: 25%; left: 25%;
+}
+.Inscription { margin-left: 45px; }
+
+.Entrer1{margin-left: 100px}
+
+h1{margin-left:570px;}
+
+body {
+	
+	background-color:pink;
+}
+
+
