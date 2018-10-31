@@ -1,0 +1,88 @@
+
+/*BACKGROUND COLOR*/
+body {	
+	background-color:whitesmoke;
+}
+/*END BACKGROUND COLOR*/
+
+
+/*HEADER*/
+/*HEADER - LEFT ZONE*/
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+}
+.link {
+    float: left;
+}
+.textlink {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 17px;	
+}
+/*END LEFT ZONE*/
+/*HEADER - LOGIN ZONE*/
+.login-container {
+  float: right;
+}
+.login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.login-container input[type=text]{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+/*END LOGIN ZONE*/
+/*END HEADER*/
+
+
+/*DIVISION FOR 1 PRODUCT*/
+.textProduitEntete{
+	text-align:center;
+}
+#col{
+    display:block; 
+    position:static;
+    width:1900px;
+}
+.affichageproduit{
+    display: block;
+    width: 100%;
+}
+.affichageproduit li{
+	text-align: center;
+    display: inline-block;
+    width: 23% ;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.ajouteraupanier{
+	text-align: center;
+	margin-left:150px;
+}
+.prix{
+	margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 3em;
+}
+/*END DIVISION FOR 1 PRODUCT*/
