@@ -1,4 +1,4 @@
-<br><br>
+<br><br><br><br>
 <?php
 
 //Starting session
@@ -10,6 +10,7 @@ include("action/databaseConnection.php");
 //include checkUser.php file
 include("action/checkUser.php");
 
+global $page;
 $page = $_GET['page'];
 
 ?>
@@ -21,10 +22,17 @@ $page = $_GET['page'];
  
 <body>
 	<?php include("view/header.php"); ?>
-	<?php if (file_exists("view/'.$page'.php"))
-			include(".$page.php");
-		  else
-			include("view/main.php"); 
+	<?php 
+
+	if (file_exists("action/".$page.".php")) {
+		$path = "action/".$page.".php";
+	} elseif (file_exists("view/".$page.".php")) {
+		$path = "view/".$page.".php";
+	}
+		if (!empty($path))
+			include ($path);
+		else
+		  	include ("view/main.php");
 	?>
 </body>
 </html>
